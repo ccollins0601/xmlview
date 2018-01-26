@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="xv-browser.xsl"?>
-<ODM CreationDateTime="2018-01-23T06:11:14+00:00" FileType="Snapshot" ODMVersion="1.3" >
+<ODM CreationDateTime="2018-01-23T06:11:14+00:00" FileType="Snapshot" ODMVersion="1.3" xmlns:OpenClinica="http://www.openclinica.org/ns/odm_ext_v130/v3.1" >
 <ClinicalData StudyOID="S_12345678" MetaDataVersionOID="null">
         <SubjectData SubjectKey="SS_1">
             <StudyEventData StudyEventOID="SE_DEMOFORMS" OpenClinica:StartDate="2017-12-03" OpenClinica:Status="data entry started" StudyEventRepeatKey="1">
