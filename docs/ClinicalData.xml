@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="xv-browser.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="xv-browser.xsl"?>
     <ClinicalData StudyOID="S_12345678" MetaDataVersionOID="null">
         <SubjectData SubjectKey="SS_1" OpenClinica:StudySubjectID="1" OpenClinica:Status="Available" OpenClinica:Sex="null" OpenClinica:EnrollmentDate="2017-12-03">
 
