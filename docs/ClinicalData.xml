@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="xv-browser.xsl"?>
 <ODM CreationDateTime="2018-01-23T06:11:14+00:00" FileType="Snapshot" ODMVersion="1.3" >
 <ClinicalData StudyOID="S_12345678" MetaDataVersionOID="null">
-        <SubjectData SubjectKey="SS_1" OpenClinica:StudySubjectID="1" OpenClinica:Status="Available" OpenClinica:Sex="null" OpenClinica:EnrollmentDate="2017-12-03">
+        <SubjectData SubjectKey="SS_1">
             <StudyEventData StudyEventOID="SE_DEMOFORMS" OpenClinica:StartDate="2017-12-03" OpenClinica:Status="data entry started" StudyEventRepeatKey="1">
                 <FormData FormOID="F_KITCHENSINK" OpenClinica:FormLayoutOID="2" OpenClinica:Status="initial data entry">
                     <ItemGroupData ItemGroupOID="IG_KITCH_AE_RG" ItemGroupRepeatKey="1" TransactionType="Insert">
