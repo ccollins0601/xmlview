@@ -2,7 +2,178 @@
 <ODM FileOID="Study-MetaD20180123061114+0000" Description="Study Metadata" CreationDateTime="2018-01-23T06:11:14+00:00" FileType="Snapshot" ODMVersion="1.3" xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:OpenClinica="http://www.openclinica.org/ns/odm_ext_v130/v3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 OpenClinica-ODM1-3-0-OC2-0.xsd" >
 <ClinicalData StudyOID="S_12345678" MetaDataVersionOID="null">
         <SubjectData SubjectKey="SS_1" OpenClinica:StudySubjectID="1" OpenClinica:Status="Available" OpenClinica:Sex="null" OpenClinica:EnrollmentDate="2017-12-03">
-
+            <StudyEventData StudyEventOID="SE_DEMOFORMS" OpenClinica:StartDate="2017-12-03" OpenClinica:Status="data entry started" StudyEventRepeatKey="1">
+                <FormData FormOID="F_KITCHENSINK" OpenClinica:FormLayoutOID="2" OpenClinica:Status="initial data entry">
+                    <ItemGroupData ItemGroupOID="IG_KITCH_AE_RG" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_ONG" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_SAE" Value="2"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_CALC" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_AGE_DAYS" Value="14451"/>
+                        <ItemData ItemOID="I_KITCH_AGE_YEARS" Value="39.6"/>
+                        <ItemData ItemOID="I_KITCH_BDAY" Value="1978-06-20"/>
+                        <ItemData ItemOID="I_KITCH_COHORT" Value="D"/>
+                        <ItemData ItemOID="I_KITCH_RNDM" Value="4"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_CONSTRAINTS" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_CONSTRAINTS_EVEN_ODD" Value="23"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_DATES" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_DATEYM" Value="2017-03-01"/>
+                        <ItemData ItemOID="I_KITCH_TODAY" Value="2018-01-12"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_DINNER2" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_ADDLSERVINGS" Value="I was hungry"/>
+                        <ItemData ItemOID="I_KITCH_ITEM2" Value="tacos"/>
+                        <ItemData ItemOID="I_KITCH_SERVINGS2" Value="2"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_GROUP1" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_ARM_MAP" Value="path16"/>
+                        <ItemData ItemOID="I_KITCH_ARM_SELECTION" Value="Medial antebrachial cut."/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_IMAGES" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_COLORS" Value="red,green"/>
+                        <ItemData ItemOID="I_KITCH_DRAW" Value="drawing-12_56_52.png"/>
+                        <ItemData ItemOID="I_KITCH_PAIN_LEVEL" Value="3"/>
+                        <ItemData ItemOID="I_KITCH_SIGNATURE" Value="signature-12_56_33.png"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_MULTISELECTS" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_ML_DROPDOWN" Value="a"/>
+                        <ItemData ItemOID="I_KITCH_SELECT_MULTIPLE" Value="a"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_NUMBERS" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_CALC" Value="224.3"/>
+                        <ItemData ItemOID="I_KITCH_DECIMAL" Value="2.3"/>
+                        <ItemData ItemOID="I_KITCH_INTEGER" Value="222"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_PICKLIST" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_ACKNOWLEDGE" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_CASCADE1AUTO" Value="2"/>
+                        <ItemData ItemOID="I_KITCH_LIKERTCALC" Value="2"/>
+                        <ItemData ItemOID="I_KITCH_LIKERTDIET" Value="2"/>
+                        <ItemData ItemOID="I_KITCH_LIKERTEXERCISE" Value="2"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_PIPING" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_BMI" Value="18.24"/>
+                        <ItemData ItemOID="I_KITCH_BMI_CALC" Value="18.24"/>
+                        <ItemData ItemOID="I_KITCH_HEIGHT" Value="68"/>
+                        <ItemData ItemOID="I_KITCH_HEIGHT_UNIT_DES" Value="68 inches"/>
+                        <ItemData ItemOID="I_KITCH_WEIGHT" Value="120"/>
+                        <ItemData ItemOID="I_KITCH_WEIGHT_UNIT_DES" Value="120 pounds"/>
+                        <ItemData ItemOID="I_KITCH_WH_UNITS" Value="2"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_REPEATING" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_BP_DIA_MEAN" Value="78.3"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_MEAN" Value="129.7"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_SHOWHIDE" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_SHCREAT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_SHCREAT2" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_SHCREATVALUE" Value="1.2"/>
+                        <ItemData ItemOID="I_KITCH_SHCREATVALUE2" Value="1.3"/>
+                        <ItemData ItemOID="I_KITCH_SHDINNER" Value="2"/>
+                        <ItemData ItemOID="I_KITCH_SHDINNER2" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_SHSEX" Value="1"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_SINGLESELECTS" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_BODYSYSTEM" Value="4"/>
+                        <ItemData ItemOID="I_KITCH_CASCADE1" Value="2"/>
+                        <ItemData ItemOID="I_KITCH_PICKLISTUNITS" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_WORK" Value="4"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_TEXT" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_TEXTSINGLE" Value="a"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_VAS" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_VASVERTICALNOTICKS" Value="56"/>
+                        <ItemData ItemOID="I_KITCH_VASVERTICALWITHTICKS" Value="52"/>
+                        <ItemData ItemOID="I_KITCH_VAS_DISTRESS" Value="3"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_VITALS_RG" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_BP_DIA" Value="80"/>
+                        <ItemData ItemOID="I_KITCH_BP_DIA_COUNT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_BP_DIA_VAL" Value="80"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS" Value="120"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_COUNT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_VAL" Value="120"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_COUNT" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_VAL" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM_INIT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_ROW_NUMBER" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_TIME" Value="00:15"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_VITALS_RG" ItemGroupRepeatKey="2" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_BP_DIA" Value="75"/>
+                        <ItemData ItemOID="I_KITCH_BP_DIA_COUNT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_BP_DIA_VAL" Value="75"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS" Value="115"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_COUNT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_VAL" Value="115"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_COUNT" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_VAL" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM_INIT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_ROW_NUMBER" Value="2"/>
+                        <ItemData ItemOID="I_KITCH_TIME" Value="00:30"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_VITALS_RG" ItemGroupRepeatKey="3" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_BP_DIA_COUNT" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_BP_DIA_VAL" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_COUNT" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_VAL" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_COUNT" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_VAL" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM_INIT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_ROW_NUMBER" Value="3"/>
+                        <ItemData ItemOID="I_KITCH_TIME" Value="00:45"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_KITCH_VITALS_RG" ItemGroupRepeatKey="4" TransactionType="Insert">
+                        <ItemData ItemOID="I_KITCH_BP_DIA" Value="80"/>
+                        <ItemData ItemOID="I_KITCH_BP_DIA_COUNT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_BP_DIA_VAL" Value="80"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS" Value="154"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_COUNT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_BP_SYS_VAL" Value="154"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_COUNT" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_PULSE_VAL" Value="0"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_RG_NUM_INIT" Value="1"/>
+                        <ItemData ItemOID="I_KITCH_ROW_NUMBER" Value="4"/>
+                        <ItemData ItemOID="I_KITCH_TIME" Value="1:00"/>
+                    </ItemGroupData>
+                </FormData>
+                <FormData FormOID="F_ADVERSEEVENT" OpenClinica:FormLayoutOID="1.3" OpenClinica:Status="data entry complete">
+                    <ItemGroupData ItemGroupOID="IG_ADVER_GROUP0" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_ADVER_VISIT_AE" Value="0,1"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_ADVER_GROUP1" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_ADVER_ACT" Value="2"/>
+                        <ItemData ItemOID="I_ADVER_AEBL" Value="fever"/>
+                        <ItemData ItemOID="I_ADVER_EXP1" Value="1"/>
+                        <ItemData ItemOID="I_ADVER_ONG" Value="0"/>
+                        <ItemData ItemOID="I_ADVER_OUT" Value="1"/>
+                        <ItemData ItemOID="I_ADVER_RL1" Value="2"/>
+                        <ItemData ItemOID="I_ADVER_SAE" Value="1"/>
+                        <ItemData ItemOID="I_ADVER_START" Value="2017-12-01"/>
+                        <ItemData ItemOID="I_ADVER_STOP" Value=""/>
+                        <ItemData ItemOID="I_ADVER_TG1" Value="3"/>
+                    </ItemGroupData>
+                    <ItemGroupData ItemGroupOID="IG_ADVER_GROUP2" ItemGroupRepeatKey="1" TransactionType="Insert">
+                        <ItemData ItemOID="I_ADVER_ACT_C1" Value="2"/>
+                        <ItemData ItemOID="I_ADVER_AEC1" Value="headache"/>
+                        <ItemData ItemOID="I_ADVER_EXP1_C1" Value="1"/>
+                        <ItemData ItemOID="I_ADVER_ONG_C1" Value="0"/>
+                        <ItemData ItemOID="I_ADVER_OUT_C1" Value="4"/>
+                        <ItemData ItemOID="I_ADVER_RL1_C1" Value="4"/>
+                        <ItemData ItemOID="I_ADVER_SAE_C1" Value="0"/>
+                        <ItemData ItemOID="I_ADVER_START_C1" Value="2017-11-30"/>
+                        <ItemData ItemOID="I_ADVER_STOP_C1" Value="2017-12-01"/>
+                        <ItemData ItemOID="I_ADVER_TG1_C1" Value="1"/>
+                    </ItemGroupData>
+                </FormData>
+            </StudyEventData>
         </SubjectData>
     </ClinicalData>
 </ODM>
